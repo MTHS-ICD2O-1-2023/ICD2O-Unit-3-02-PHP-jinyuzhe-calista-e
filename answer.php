@@ -35,7 +35,7 @@
             $heightOfPyramid = $_POST["height-of-pyramid"];
 
             // process
-            $volumeOfPyramid = (lengthOfPyramid * widthOfPyramid * heightOfPyramid) / 3 
+            $volumeOfPyramid = ($lengthOfPyramid * $widthOfPyramid * $heightOfPyramid) / 3;
 
             // output
             echo "If a pyramid has length = " . $lengthOfPyramid . " mm and the width = " . $widthOfPyramid . " mm and the height = " . $heightOfPyramid. " mm. ";
