@@ -35,13 +35,13 @@
             $heightOfPyramid = $_POST["height-of-pyramid"];
 
             // process
-            $volumeOfPyramid = ($lengthOfPyramid * $widthOfPyramid * $heightOfPyramid) / 3;
+            $volume = ($lengthOfPyramid * $widthOfPyramid * $heightOfPyramid) / 3;
 
             // output
             echo "If a pyramid has length = " . $lengthOfPyramid . " mm and the width = " . $widthOfPyramid . " mm and the height = " . $heightOfPyramid. " mm. ";
             echo "<br />";
             echo "<br />";
-            echo "The area of the trapezoid is " . $volumeOfPyramid . " mm³.";
+            echo "The area of the trapezoid is " . round($volume, 2) . " mm³.";
             ?>
           </div>
         </div>
