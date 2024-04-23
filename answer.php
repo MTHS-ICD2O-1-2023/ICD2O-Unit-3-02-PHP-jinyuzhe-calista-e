@@ -38,10 +38,10 @@
             $volumeOfPyramid = (lengthOfPyramid * widthOfPyramid * heightOfPyramid) / 3 
 
             // output
-            echo "If a pyramid has length = " . $lengthOfPyramid . " mm and the height = " . $heightOfTriangle . " cm:";
+            echo "If a pyramid has length = " . $lengthOfPyramid . " mm and the width = " . $widthOfPyramid . " mm and the height = " . $heightOfPyramid. " mm. ";
             echo "<br />";
             echo "<br />";
-            echo "The area of the triangle is " . $area . " cm².";
+            echo "The area of the trapezoid is " . $volumeOfPyramid . " mm³.";
             ?>
           </div>
         </div>

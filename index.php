@@ -25,7 +25,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/area_of_trinagle.png" alt="laptop image" width="250" />
+        <img src="./images/pyramid.png" alt="laptop image" width="250" />
       </div>
       <br />
       <div class="page-content">please enter integers for dimensions:</div>
@@ -44,7 +44,7 @@
           </div>
           <br />
           <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-of-pyramid">
-          <label class="mdl-textfield__label" for="height-of-pyramid">height-of-pyramid (mm)</label>
+          <label class="mdl-textfield__label" for="height-of-pyramid">Height of pyramid (mm)</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
       </div>
       <br />
